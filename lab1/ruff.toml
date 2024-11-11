@@ -1,0 +1,36 @@
+# Set the maximum line length to 79.
+line-length = 79
+
+[lint]
+select = [
+    # pycodestyle Error
+    "E",
+    # pycodestyle Warning
+    "W",
+    # Pyflakes
+    "F",
+    # mccabe
+    "C90",
+    # isort
+    "I",
+    # pep8-naming
+    "N",
+    # pydocstyle
+    "D",
+    # flake8-bugbear
+    "B",
+    # flake8-commas
+    "COM",
+    # flake8-comprehensions
+    "C4",
+    # flake8-implicit-str-concat
+    "ISC",
+    # flake8-simplify
+    "SIM",
+    # flake8-unused-arguments
+    "ARG",
+    # pyupgrade
+    "UP",
+    # Pylint
+    "PL",
+]
